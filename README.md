@@ -1,4 +1,4 @@
-# Resume Analyzer & Job Matcher
+# Resume Matcher
 
 A web app that reads a resume (PDF/DOCX), extracts key information, and ranks the best matching jobs with a match score and a skill gap report.
 
@@ -26,8 +26,8 @@ A web app that reads a resume (PDF/DOCX), extracts key information, and ranks th
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/resume-analyzer-job-matcher.git
-cd resume-analyzer-job-matcher
+git clone https://github.com/soniyashaik29/resume-matcher.git
+cd resume-matcher
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -49,7 +49,7 @@ streamlit run app.py
 ## Screenshots
 
 ### Resume Upload and Skill Detection
-![Resume Analyzer Screenshot](screenshots/app.png)
+![resume-matcher Screenshot](screenshots/app.png)
 
 ## Future Improvements
 - Semantic matching with sentence-transformers
@@ -57,5 +57,4 @@ streamlit run app.py
 - Live job listings through an API
 - Export analysis as a PDF report
 
-## Author
-Your Name | [LinkedIn](https://linkedin.com/in/your-profile)
+
