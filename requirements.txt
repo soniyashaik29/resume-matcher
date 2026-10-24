@@ -1,0 +1,7 @@
+# install the above one 
+mkdir resume-matcher && cd resume-matcher
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # Mac/Linux
+pip install streamlit pdfplumber python-docx spacy scikit-learn sentence-transformers pandas
+python -m spacy download en_core_web_sm
