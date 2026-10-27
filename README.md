@@ -38,5 +38,4 @@ An AI-powered application designed to analyze resumes against job descriptions, 
    git clone [https://github.com/soniyashaik29/resume-matcher.git](https://github.com/soniyashaik29/resume-matcher.git)
    cd resume-matcher
 
-   📝 License
-Distributed under the MIT License. See LICENSE for more information.
+
